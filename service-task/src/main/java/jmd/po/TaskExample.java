@@ -975,73 +975,63 @@ public class TaskExample {
             return (Criteria) this;
         }
 
-        public Criteria andField1IsNull() {
-            addCriterion("field_1 is null");
+        public Criteria andHoldTimeIsNull() {
+            addCriterion("hold_time is null");
             return (Criteria) this;
         }
 
-        public Criteria andField1IsNotNull() {
-            addCriterion("field_1 is not null");
+        public Criteria andHoldTimeIsNotNull() {
+            addCriterion("hold_time is not null");
             return (Criteria) this;
         }
 
-        public Criteria andField1EqualTo(String value) {
-            addCriterion("field_1 =", value, "field1");
+        public Criteria andHoldTimeEqualTo(Long value) {
+            addCriterion("hold_time =", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1NotEqualTo(String value) {
-            addCriterion("field_1 <>", value, "field1");
+        public Criteria andHoldTimeNotEqualTo(Long value) {
+            addCriterion("hold_time <>", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1GreaterThan(String value) {
-            addCriterion("field_1 >", value, "field1");
+        public Criteria andHoldTimeGreaterThan(Long value) {
+            addCriterion("hold_time >", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1GreaterThanOrEqualTo(String value) {
-            addCriterion("field_1 >=", value, "field1");
+        public Criteria andHoldTimeGreaterThanOrEqualTo(Long value) {
+            addCriterion("hold_time >=", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1LessThan(String value) {
-            addCriterion("field_1 <", value, "field1");
+        public Criteria andHoldTimeLessThan(Long value) {
+            addCriterion("hold_time <", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1LessThanOrEqualTo(String value) {
-            addCriterion("field_1 <=", value, "field1");
+        public Criteria andHoldTimeLessThanOrEqualTo(Long value) {
+            addCriterion("hold_time <=", value, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1Like(String value) {
-            addCriterion("field_1 like", value, "field1");
+        public Criteria andHoldTimeIn(List<Long> values) {
+            addCriterion("hold_time in", values, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1NotLike(String value) {
-            addCriterion("field_1 not like", value, "field1");
+        public Criteria andHoldTimeNotIn(List<Long> values) {
+            addCriterion("hold_time not in", values, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1In(List<String> values) {
-            addCriterion("field_1 in", values, "field1");
+        public Criteria andHoldTimeBetween(Long value1, Long value2) {
+            addCriterion("hold_time between", value1, value2, "holdTime");
             return (Criteria) this;
         }
 
-        public Criteria andField1NotIn(List<String> values) {
-            addCriterion("field_1 not in", values, "field1");
-            return (Criteria) this;
-        }
-
-        public Criteria andField1Between(String value1, String value2) {
-            addCriterion("field_1 between", value1, value2, "field1");
-            return (Criteria) this;
-        }
-
-        public Criteria andField1NotBetween(String value1, String value2) {
-            addCriterion("field_1 not between", value1, value2, "field1");
+        public Criteria andHoldTimeNotBetween(Long value1, Long value2) {
+            addCriterion("hold_time not between", value1, value2, "holdTime");
             return (Criteria) this;
         }
 
